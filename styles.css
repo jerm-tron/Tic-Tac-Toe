@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+.player-names {
+  display: flex;
+  justify-content: space-around;
+}
+
+.player-names div {
+  font-size: 5vh;
+}
+
+.logo {
+  font-size: 10vh;
+  text-align: center;
+}
+
+.board-view {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 2em 5em;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 35em;
+  width: 35em;
+}
+
+.cell {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
